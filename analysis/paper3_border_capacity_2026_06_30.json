@@ -1,0 +1,58 @@
+{
+  "border_km": {
+    "Benin": 517.1730372694624,
+    "Togo": 128.71704304524957,
+    "Ivory Coast": 1016.7824290736758,
+    "Ghana": 538.9364525763793,
+    "Nigeria": 1454.6742086198742
+  },
+  "milex_mean": {
+    "Benin": 116479137.06870916,
+    "Togo": 234200973.399117,
+    "Ivory Coast": 638517766.381922,
+    "Ghana": 264324820.73507255,
+    "Nigeria": 2875652752.0273123
+  },
+  "rows": [
+    {
+      "country": "Benin",
+      "milex_mean": 116479137.06870916,
+      "border_km": 517.1730372694624,
+      "perkm_k": 225.22275655298733,
+      "jnim_fatal": 333,
+      "yrs_contact": 4
+    },
+    {
+      "country": "Togo",
+      "milex_mean": 234200973.399117,
+      "border_km": 128.71704304524957,
+      "perkm_k": 1819.5024361831036,
+      "jnim_fatal": 275,
+      "yrs_contact": 3
+    },
+    {
+      "country": "Ivory Coast",
+      "milex_mean": 638517766.381922,
+      "border_km": 1016.7824290736758,
+      "perkm_k": 627.978757425651,
+      "jnim_fatal": 0,
+      "yrs_contact": 5
+    },
+    {
+      "country": "Ghana",
+      "milex_mean": 264324820.73507255,
+      "border_km": 538.9364525763793,
+      "perkm_k": 490.4563784310207,
+      "jnim_fatal": 0,
+      "yrs_contact": NaN
+    },
+    {
+      "country": "Nigeria",
+      "milex_mean": 2875652752.0273123,
+      "border_km": 1454.6742086198742,
+      "perkm_k": 1976.836280582437,
+      "jnim_fatal": null,
+      "yrs_contact": 1
+    }
+  ]
+}

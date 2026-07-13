@@ -1,0 +1,155 @@
+{
+  "version": "UCDP-GED v26.1 (1989-2025)",
+  "fired": "2026-06-30",
+  "emergence": {
+    "Togo": {
+      "first_ge50": null,
+      "lifetime_t2": 31,
+      "t2_2020_24": 0,
+      "t2_2025": 0
+    },
+    "Ivory Coast": {
+      "first_ge50": 2003,
+      "lifetime_t2": 756,
+      "t2_2020_24": 0,
+      "t2_2025": 0
+    },
+    "Ghana": {
+      "first_ge50": 1992,
+      "lifetime_t2": 2593,
+      "t2_2020_24": 61,
+      "t2_2025": 98
+    },
+    "Benin": {
+      "first_ge50": null,
+      "lifetime_t2": 0,
+      "t2_2020_24": 0,
+      "t2_2025": 0
+    },
+    "Mali": {
+      "first_ge50": 1999,
+      "lifetime_t2": 3433,
+      "t2_2020_24": 2197,
+      "t2_2025": 168
+    },
+    "Burkina Faso": {
+      "first_ge50": 2020,
+      "lifetime_t2": 658,
+      "t2_2020_24": 476,
+      "t2_2025": 142
+    },
+    "Niger": {
+      "first_ge50": 2021,
+      "lifetime_t2": 282,
+      "t2_2020_24": 218,
+      "t2_2025": 0
+    }
+  },
+  "focus_detail": {
+    "Togo": {
+      "2024": {
+        "events": 15,
+        "total_fatal": 68,
+        "by_type": {
+          "state-based": 46,
+          "strife": 0,
+          "one-sided": 22
+        }
+      },
+      "2025": {
+        "events": 5,
+        "total_fatal": 69,
+        "by_type": {
+          "state-based": 69,
+          "strife": 0,
+          "one-sided": 0
+        }
+      },
+      "top_dyads_2025": {
+        "Government of Togo - JNIM": 69
+      },
+      "jnim_present": true
+    },
+    "Ivory Coast": {
+      "2024": {
+        "events": 0,
+        "total_fatal": 0,
+        "by_type": {
+          "state-based": 0,
+          "strife": 0,
+          "one-sided": 0
+        }
+      },
+      "2025": {
+        "events": 0,
+        "total_fatal": 0,
+        "by_type": {
+          "state-based": 0,
+          "strife": 0,
+          "one-sided": 0
+        }
+      },
+      "top_dyads_2025": {},
+      "jnim_present": false
+    },
+    "Ghana": {
+      "2024": {
+        "events": 5,
+        "total_fatal": 30,
+        "by_type": {
+          "state-based": 0,
+          "strife": 30,
+          "one-sided": 0
+        }
+      },
+      "2025": {
+        "events": 22,
+        "total_fatal": 98,
+        "by_type": {
+          "state-based": 0,
+          "strife": 98,
+          "one-sided": 0
+        }
+      },
+      "top_dyads_2025": {
+        "Kusasi - Mamprusi": 67,
+        "Birifor  - Gonja": 31
+      },
+      "jnim_present": false
+    },
+    "Benin": {
+      "2024": {
+        "events": 29,
+        "total_fatal": 85,
+        "by_type": {
+          "state-based": 77,
+          "strife": 0,
+          "one-sided": 8
+        }
+      },
+      "2025": {
+        "events": 31,
+        "total_fatal": 160,
+        "by_type": {
+          "state-based": 149,
+          "strife": 0,
+          "one-sided": 11
+        }
+      },
+      "top_dyads_2025": {
+        "Government of Benin - JNIM": 149,
+        "JNIM - Civilians": 11
+      },
+      "jnim_present": true
+    }
+  },
+  "jnim_2020_25": {
+    "Togo": 275,
+    "Ivory Coast": 0,
+    "Ghana": 0,
+    "Benin": 333,
+    "Mali": 7992,
+    "Burkina Faso": 15373,
+    "Niger": 964
+  }
+}

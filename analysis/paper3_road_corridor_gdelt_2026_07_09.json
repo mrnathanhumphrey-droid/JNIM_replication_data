@@ -1,0 +1,85 @@
+{
+  "corridor_km": 5.0,
+  "n_trunk_primary_segments": 3473,
+  "overall": {
+    "jihadist": {
+      "n": 12140,
+      "pct_on_corridor": 53.8,
+      "median_dist_km": 1.8
+    },
+    "baseline_nonjihadist": {
+      "n": 71294,
+      "pct_on_corridor": 51.3,
+      "median_dist_km": 1.8
+    },
+    "differential_pct_on_corridor": 2.5
+  },
+  "by_year": {
+    "2014": {
+      "jihadist_n": 1023,
+      "jihadist_pct_corridor": 60.6,
+      "baseline_pct_corridor": 60.8,
+      "differential": -0.2
+    },
+    "2015": {
+      "jihadist_n": 2236,
+      "jihadist_pct_corridor": 68.1,
+      "baseline_pct_corridor": 63.6,
+      "differential": 4.5
+    },
+    "2016": {
+      "jihadist_n": 1622,
+      "jihadist_pct_corridor": 50.1,
+      "baseline_pct_corridor": 51.8,
+      "differential": -1.7
+    },
+    "2017": {
+      "jihadist_n": 1099,
+      "jihadist_pct_corridor": 49.2,
+      "baseline_pct_corridor": 46.1,
+      "differential": 3.1
+    },
+    "2018": {
+      "jihadist_n": 889,
+      "jihadist_pct_corridor": 50.1,
+      "baseline_pct_corridor": 49.3,
+      "differential": 0.8
+    },
+    "2019": {
+      "jihadist_n": 980,
+      "jihadist_pct_corridor": 44.1,
+      "baseline_pct_corridor": 47.3,
+      "differential": -3.2
+    },
+    "2020": {
+      "jihadist_n": 1006,
+      "jihadist_pct_corridor": 48.4,
+      "baseline_pct_corridor": 48.5,
+      "differential": -0.1
+    },
+    "2021": {
+      "jihadist_n": 961,
+      "jihadist_pct_corridor": 51.2,
+      "baseline_pct_corridor": 48.7,
+      "differential": 2.5
+    },
+    "2022": {
+      "jihadist_n": 922,
+      "jihadist_pct_corridor": 55.6,
+      "baseline_pct_corridor": 51.6,
+      "differential": 4.0
+    },
+    "2023": {
+      "jihadist_n": 874,
+      "jihadist_pct_corridor": 50.5,
+      "baseline_pct_corridor": 41.8,
+      "differential": 8.7
+    },
+    "2024": {
+      "jihadist_n": 528,
+      "jihadist_pct_corridor": 43.2,
+      "baseline_pct_corridor": 40.3,
+      "differential": 2.9
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "push_km": 250.0,
+  "rows": [
+    {
+      "country": "Benin",
+      "push_fatalities": 2872.0,
+      "push_events": 227,
+      "outcome_fatalities": 327.0,
+      "leakage": 0.114,
+      "gdp_per_km2_k": 158.0
+    },
+    {
+      "country": "Togo",
+      "push_fatalities": 2186.0,
+      "push_events": 200,
+      "outcome_fatalities": 142.0,
+      "leakage": 0.065,
+      "gdp_per_km2_k": 159.0
+    },
+    {
+      "country": "Ivory Coast",
+      "push_fatalities": 595.0,
+      "push_events": 155,
+      "outcome_fatalities": 0.0,
+      "leakage": 0.0,
+      "gdp_per_km2_k": 229.0
+    },
+    {
+      "country": "Ghana",
+      "push_fatalities": 2956.0,
+      "push_events": 428,
+      "outcome_fatalities": 1.0,
+      "leakage": 0.0,
+      "gdp_per_km2_k": 322.0
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "corridor_km": 5.0,
+  "prec_max": 3,
+  "overall": {
+    "jnim": {
+      "n": 1321,
+      "fatalities": 7899,
+      "pct_on_corridor": 46.1,
+      "median_dist_km": 6.5
+    },
+    "baseline": {
+      "n": 812,
+      "fatalities": 5328,
+      "pct_on_corridor": 36.7,
+      "median_dist_km": 17.4
+    },
+    "differential_pct": 9.4
+  },
+  "by_year": {
+    "2018": {
+      "jnim_n": 93,
+      "jnim_fatal": 419,
+      "jnim_pct": 44.1,
+      "base_pct": 14.9,
+      "diff": 29.2
+    },
+    "2019": {
+      "jnim_n": 90,
+      "jnim_fatal": 458,
+      "jnim_pct": 32.2,
+      "base_pct": 36.0,
+      "diff": -3.8
+    },
+    "2020": {
+      "jnim_n": 119,
+      "jnim_fatal": 910,
+      "jnim_pct": 34.5,
+      "base_pct": 39.4,
+      "diff": -4.9
+    },
+    "2021": {
+      "jnim_n": 144,
+      "jnim_fatal": 910,
+      "jnim_pct": 49.3,
+      "base_pct": 33.3,
+      "diff": 16.0
+    },
+    "2022": {
+      "jnim_n": 243,
+      "jnim_fatal": 1771,
+      "jnim_pct": 40.3,
+      "base_pct": 22.5,
+      "diff": 17.8
+    },
+    "2023": {
+      "jnim_n": 159,
+      "jnim_fatal": 1158,
+      "jnim_pct": 52.2,
+      "base_pct": 53.6,
+      "diff": -1.4
+    },
+    "2024": {
+      "jnim_n": 207,
+      "jnim_fatal": 1029,
+      "jnim_pct": 45.4,
+      "base_pct": 44.2,
+      "diff": 1.2
+    },
+    "2025": {
+      "jnim_n": 266,
+      "jnim_fatal": 1244,
+      "jnim_pct": 57.1,
+      "base_pct": 44.2,
+      "diff": 12.9
+    }
+  }
+}

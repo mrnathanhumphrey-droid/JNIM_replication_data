@@ -1,0 +1,75 @@
+{
+  "in_sample_anchors": {
+    "Mali": {
+      "first_year": 1999,
+      "lifetime": 3265,
+      "acute": 2197
+    },
+    "Burkina Faso": {
+      "first_year": 2020,
+      "lifetime": 516,
+      "acute": 476
+    },
+    "Niger": {
+      "first_year": 2021,
+      "lifetime": 282,
+      "acute": 218
+    },
+    "Benin": {
+      "first_year": "NO STRIFE EVER",
+      "lifetime": 0,
+      "acute": 0
+    }
+  },
+  "predicted_countries": {
+    "Togo": {
+      "first_year": "<50 ever",
+      "lifetime": 31,
+      "acute": 0
+    },
+    "Ivory Coast": {
+      "first_year": 2003,
+      "lifetime": 756,
+      "acute": 0
+    },
+    "Ghana": {
+      "first_year": 1992,
+      "lifetime": 2472,
+      "acute": 38
+    }
+  },
+  "car_subcluster": {
+    "Central African Republic": {
+      "first_year": 2011,
+      "lifetime": 3896,
+      "acute": 320
+    },
+    "Cameroon": {
+      "first_year": 1991,
+      "lifetime": 357,
+      "acute": 76
+    },
+    "Chad": {
+      "first_year": 2000,
+      "lifetime": 913,
+      "acute": 391
+    },
+    "Congo": {
+      "first_year": "NO STRIFE EVER",
+      "lifetime": 0,
+      "acute": 0
+    }
+  },
+  "hti_subcluster": {
+    "Haiti": {
+      "first_year": 2021,
+      "lifetime": 462,
+      "acute": 422
+    },
+    "Dominican Republic": {
+      "first_year": "NO STRIFE EVER",
+      "lifetime": 0,
+      "acute": 0
+    }
+  }
+}

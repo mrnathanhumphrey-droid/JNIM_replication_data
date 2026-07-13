@@ -1,0 +1,114 @@
+{
+  "dist_to_bamako_by_year": {
+    "2018": {
+      "n": 93,
+      "fatal": 419,
+      "median_km_to_bamako": 587.0,
+      "pct_within_150km": 0.0,
+      "pct_within_250km": 4.3
+    },
+    "2019": {
+      "n": 90,
+      "fatal": 458,
+      "median_km_to_bamako": 580.0,
+      "pct_within_150km": 1.1,
+      "pct_within_250km": 2.2
+    },
+    "2020": {
+      "n": 119,
+      "fatal": 910,
+      "median_km_to_bamako": 564.0,
+      "pct_within_150km": 0.8,
+      "pct_within_250km": 4.2
+    },
+    "2021": {
+      "n": 144,
+      "fatal": 910,
+      "median_km_to_bamako": 502.0,
+      "pct_within_150km": 2.1,
+      "pct_within_250km": 4.2
+    },
+    "2022": {
+      "n": 243,
+      "fatal": 1771,
+      "median_km_to_bamako": 480.0,
+      "pct_within_150km": 2.9,
+      "pct_within_250km": 7.8
+    },
+    "2023": {
+      "n": 159,
+      "fatal": 1158,
+      "median_km_to_bamako": 477.0,
+      "pct_within_150km": 4.4,
+      "pct_within_250km": 11.9
+    },
+    "2024": {
+      "n": 207,
+      "fatal": 1029,
+      "median_km_to_bamako": 483.0,
+      "pct_within_150km": 1.9,
+      "pct_within_250km": 7.2
+    },
+    "2025": {
+      "n": 266,
+      "fatal": 1244,
+      "median_km_to_bamako": 353.0,
+      "pct_within_150km": 9.8,
+      "pct_within_250km": 25.9
+    }
+  },
+  "on_corridor_by_route": {
+    "RN33": {
+      "all": 90,
+      "y2025": 19,
+      "fuel_corridor": ""
+    },
+    "RN16": {
+      "all": 78,
+      "y2025": 11,
+      "fuel_corridor": ""
+    },
+    "RN15": {
+      "all": 55,
+      "y2025": 4,
+      "fuel_corridor": ""
+    },
+    "RN6": {
+      "all": 47,
+      "y2025": 15,
+      "fuel_corridor": ""
+    },
+    "RN35": {
+      "all": 39,
+      "y2025": 11,
+      "fuel_corridor": ""
+    },
+    "RN39": {
+      "all": 33,
+      "y2025": 0,
+      "fuel_corridor": ""
+    },
+    "RN34": {
+      "all": 28,
+      "y2025": 5,
+      "fuel_corridor": ""
+    },
+    "RN3": {
+      "all": 20,
+      "y2025": 9,
+      "fuel_corridor": ""
+    },
+    "RN19": {
+      "all": 18,
+      "y2025": 0,
+      "fuel_corridor": ""
+    },
+    "RN4;RR7": {
+      "all": 17,
+      "y2025": 6,
+      "fuel_corridor": ""
+    }
+  },
+  "fuel_corridor_share_all": 4.0,
+  "fuel_corridor_share_2025": 11.6
+}
