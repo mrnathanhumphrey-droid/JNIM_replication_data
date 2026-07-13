@@ -1,0 +1,77 @@
+{
+  "per_country": [
+    {
+      "country": "Benin",
+      "pop_med_km": 6.4,
+      "ins_med_km": 39.5,
+      "ins_pctile": 83.4,
+      "n": 79
+    },
+    {
+      "country": "Burkina Faso",
+      "pop_med_km": 32.2,
+      "ins_med_km": 43.4,
+      "ins_pctile": 61.9,
+      "n": 1628
+    },
+    {
+      "country": "Cameroon",
+      "pop_med_km": 0.0,
+      "ins_med_km": 13.9,
+      "ins_pctile": 68.6,
+      "n": 384
+    },
+    {
+      "country": "Chad",
+      "pop_med_km": 28.2,
+      "ins_med_km": 68.3,
+      "ins_pctile": 79.1,
+      "n": 64
+    },
+    {
+      "country": "Kenya",
+      "pop_med_km": 19.3,
+      "ins_med_km": 57.4,
+      "ins_pctile": 70.2,
+      "n": 325
+    },
+    {
+      "country": "Mali",
+      "pop_med_km": 49.2,
+      "ins_med_km": 87.5,
+      "ins_pctile": 69.9,
+      "n": 1440
+    },
+    {
+      "country": "Niger",
+      "pop_med_km": 24.2,
+      "ins_med_km": 45.0,
+      "ins_pctile": 68.4,
+      "n": 411
+    },
+    {
+      "country": "Nigeria",
+      "pop_med_km": 1.0,
+      "ins_med_km": 21.4,
+      "ins_pctile": 77.6,
+      "n": 2515
+    },
+    {
+      "country": "Somalia",
+      "pop_med_km": 0.0,
+      "ins_med_km": 7.7,
+      "ins_pctile": 71.2,
+      "n": 3450
+    },
+    {
+      "country": "Togo",
+      "pop_med_km": 3.0,
+      "ins_med_km": 41.5,
+      "ins_pctile": 85.2,
+      "n": 44
+    }
+  ],
+  "pooled_pctile": 0.7109,
+  "share_above_median_resident": 85.6,
+  "wilcoxon_p": 0.0
+}

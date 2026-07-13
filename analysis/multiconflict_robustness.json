@@ -1,0 +1,136 @@
+{
+  "baseline": {
+    "spearman": -0.8333333333333333,
+    "p": 0.005265691029161746,
+    "n": 9,
+    "kendall": -0.6666666666666666
+  },
+  "loo_state": {
+    "rows": [
+      [
+        "Benin",
+        -0.881
+      ],
+      [
+        "Togo",
+        -0.881
+      ],
+      [
+        "Ivory Coast",
+        -0.786
+      ],
+      [
+        "Ghana",
+        -0.786
+      ],
+      [
+        "Niger",
+        -0.762
+      ],
+      [
+        "Chad",
+        -0.762
+      ],
+      [
+        "Cameroon",
+        -0.762
+      ],
+      [
+        "Kenya",
+        -0.905
+      ],
+      [
+        "Ethiopia",
+        -0.905
+      ]
+    ],
+    "min": -0.905,
+    "max": -0.762
+  },
+  "loo_conflict": {
+    "JNIM": {
+      "rho": -0.9,
+      "p": 0.0374,
+      "n": 5
+    },
+    "BokoHaram": {
+      "rho": -0.429,
+      "p": 0.3965,
+      "n": 6
+    },
+    "alShabaab": {
+      "rho": -0.964,
+      "p": 0.0005,
+      "n": 7
+    }
+  },
+  "permutation": {
+    "p_naive": 0.009149542522873857,
+    "p_within": 0.21743912804359783,
+    "cluster_rho": -1.0
+  },
+  "within_concordance": {
+    "JNIM": -0.8,
+    "BokoHaram": -1.0,
+    "alShabaab": 1.0
+  },
+  "spec_sweep": {
+    "push_150km": -0.767,
+    "push_200km": -0.767,
+    "push_250km": -0.833,
+    "push_300km": -0.833,
+    "push_350km": -0.833,
+    "yr_2015_2025": -0.833,
+    "yr_2018_2025": -0.767,
+    "yr_2020_2025": -0.767,
+    "prec_le2": -0.833,
+    "prec_le3": -0.833,
+    "prec_le4": -0.833
+  },
+  "alt_predictors": {
+    "gdp_km2": {
+      "rho": -0.833,
+      "p": 0.0053
+    },
+    "pop_km2": {
+      "rho": -0.733,
+      "p": 0.0246
+    },
+    "gdp_cap": {
+      "rho": -0.683,
+      "p": 0.0424
+    },
+    "gdp_km2_early": {
+      "rho": -0.8,
+      "p": 0.0096
+    }
+  },
+  "alt_leakage": {
+    "ratio o/p (base)": -0.833,
+    "o/(p+o)": -0.833,
+    "log ratio": -0.783,
+    "raw outcome": -0.733
+  },
+  "actor_variants": {
+    "BH=JAS+IS, +Eth": {
+      "rho": -0.833,
+      "p": 0.0053,
+      "n": 9
+    },
+    "BH=JAS only": {
+      "rho": -0.733,
+      "p": 0.0246,
+      "n": 9
+    },
+    "BH=IS only": {
+      "rho": -0.75,
+      "p": 0.0199,
+      "n": 9
+    },
+    "BH=JAS+IS, -Eth": {
+      "rho": -0.905,
+      "p": 0.002,
+      "n": 8
+    }
+  }
+}

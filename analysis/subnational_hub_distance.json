@@ -1,0 +1,34 @@
+{
+  "hub_class": 30,
+  "insurgent": {
+    "n": 10346,
+    "median_km": 28.1,
+    "mean_km": 40.3,
+    "within10": 29.1,
+    "within25": 47.1,
+    "within50": 70.0
+  },
+  "baseline": {
+    "n": 10641,
+    "median_km": 17.1,
+    "mean_km": 33.7,
+    "within10": 36.5,
+    "within25": 62.8,
+    "within50": 81.8
+  },
+  "mannwhitney_p": 2.8411171341271124e-73,
+  "by_conflict": {
+    "JNIM": {
+      "median_km": 57.4,
+      "n": 3284
+    },
+    "BokoHaram": {
+      "median_km": 20.9,
+      "n": 3281
+    },
+    "alShabaab": {
+      "median_km": 10.8,
+      "n": 3781
+    }
+  }
+}

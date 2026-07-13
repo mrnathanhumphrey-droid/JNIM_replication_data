@@ -1,0 +1,141 @@
+{
+  "push_km": 250.0,
+  "years": [
+    2015,
+    2025
+  ],
+  "rows": [
+    {
+      "conflict": "JNIM",
+      "country": "Benin",
+      "push_fatalities": 2881.0,
+      "push_events": 230,
+      "outcome_fatalities": 327.0,
+      "leakage": 0.114
+    },
+    {
+      "conflict": "JNIM",
+      "country": "Togo",
+      "push_fatalities": 2202.0,
+      "push_events": 206,
+      "outcome_fatalities": 142.0,
+      "leakage": 0.064
+    },
+    {
+      "conflict": "JNIM",
+      "country": "Ivory Coast",
+      "push_fatalities": 609.0,
+      "push_events": 160,
+      "outcome_fatalities": 0.0,
+      "leakage": 0.0
+    },
+    {
+      "conflict": "JNIM",
+      "country": "Ghana",
+      "push_fatalities": 3023.0,
+      "push_events": 453,
+      "outcome_fatalities": 1.0,
+      "leakage": 0.0
+    },
+    {
+      "conflict": "BokoHaram",
+      "country": "Niger",
+      "push_fatalities": 5142.0,
+      "push_events": 527,
+      "outcome_fatalities": 3280.0,
+      "leakage": 0.638
+    },
+    {
+      "conflict": "BokoHaram",
+      "country": "Chad",
+      "push_fatalities": 1322.0,
+      "push_events": 141,
+      "outcome_fatalities": 733.0,
+      "leakage": 0.554
+    },
+    {
+      "conflict": "BokoHaram",
+      "country": "Cameroon",
+      "push_fatalities": 12576.0,
+      "push_events": 1736,
+      "outcome_fatalities": 2828.0,
+      "leakage": 0.225
+    },
+    {
+      "conflict": "alShabaab",
+      "country": "Kenya",
+      "push_fatalities": 4286.0,
+      "push_events": 642,
+      "outcome_fatalities": 883.0,
+      "leakage": 0.206
+    },
+    {
+      "conflict": "alShabaab",
+      "country": "Ethiopia",
+      "push_fatalities": 7727.0,
+      "push_events": 897,
+      "outcome_fatalities": 10.0,
+      "leakage": 0.001
+    }
+  ],
+  "density": {
+    "Benin": {
+      "gdp_per_km2_k": 158.4,
+      "gdp_per_capita": 1336.0
+    },
+    "Togo": {
+      "gdp_per_km2_k": 158.8,
+      "gdp_per_capita": 993.0
+    },
+    "Ivory Coast": {
+      "gdp_per_km2_k": 233.7,
+      "gdp_per_capita": 2464.0
+    },
+    "Ghana": {
+      "gdp_per_km2_k": 323.7,
+      "gdp_per_capita": 2330.0
+    },
+    "Niger": {
+      "gdp_per_km2_k": 13.7,
+      "gdp_per_capita": 637.0
+    },
+    "Chad": {
+      "gdp_per_km2_k": 13.8,
+      "gdp_per_capita": 940.0
+    },
+    "Cameroon": {
+      "gdp_per_km2_k": 100.0,
+      "gdp_per_capita": 1680.0
+    },
+    "Kenya": {
+      "gdp_per_km2_k": 188.7,
+      "gdp_per_capita": 2036.0
+    },
+    "Ethiopia": {
+      "gdp_per_km2_k": 109.4,
+      "gdp_per_capita": 983.0
+    }
+  },
+  "pooled_spearman": {
+    "LEAKAGE vs GDP/km2 (the density-shield law)": {
+      "rho": -0.845,
+      "p": 0.0041,
+      "n": 9
+    },
+    "LEAKAGE vs GDP/capita (wealth, not density)": {
+      "rho": -0.678,
+      "p": 0.0448,
+      "n": 9
+    },
+    "raw OUTCOME vs GDP/km2 (no push-netting)": {
+      "rho": -0.733,
+      "p": 0.0246,
+      "n": 9
+    },
+    "PUSH vs GDP/km2 (should be ~flat: density!=less push)": {
+      "rho": -0.367,
+      "p": 0.3317,
+      "n": 9
+    }
+  }
+}
