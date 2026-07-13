@@ -1,0 +1,83 @@
+{
+  "gdp_year": 2020,
+  "per_country": [
+    {
+      "country": "Benin",
+      "pop_med_gdpdens": 1346901.0,
+      "ins_med_gdpdens": 113931.0,
+      "ins_gdp_pctile": 16.2,
+      "n": 79
+    },
+    {
+      "country": "Burkina Faso",
+      "pop_med_gdpdens": 217219.0,
+      "ins_med_gdpdens": 116696.0,
+      "ins_gdp_pctile": 34.1,
+      "n": 1628
+    },
+    {
+      "country": "Cameroon",
+      "pop_med_gdpdens": 2342756.0,
+      "ins_med_gdpdens": 686538.0,
+      "ins_gdp_pctile": 31.3,
+      "n": 384
+    },
+    {
+      "country": "Chad",
+      "pop_med_gdpdens": 196306.0,
+      "ins_med_gdpdens": 48488.0,
+      "ins_gdp_pctile": 29.1,
+      "n": 64
+    },
+    {
+      "country": "Kenya",
+      "pop_med_gdpdens": 1694977.0,
+      "ins_med_gdpdens": 90868.0,
+      "ins_gdp_pctile": 21.7,
+      "n": 312
+    },
+    {
+      "country": "Mali",
+      "pop_med_gdpdens": 187333.0,
+      "ins_med_gdpdens": 115765.0,
+      "ins_gdp_pctile": 36.8,
+      "n": 1415
+    },
+    {
+      "country": "Niger",
+      "pop_med_gdpdens": 203214.0,
+      "ins_med_gdpdens": 107698.0,
+      "ins_gdp_pctile": 36.1,
+      "n": 404
+    },
+    {
+      "country": "Nigeria",
+      "pop_med_gdpdens": 3424875.0,
+      "ins_med_gdpdens": 161027.0,
+      "ins_gdp_pctile": 14.1,
+      "n": 2515
+    },
+    {
+      "country": "Somalia",
+      "pop_med_gdpdens": 941802.0,
+      "ins_med_gdpdens": 736335.0,
+      "ins_gdp_pctile": 45.3,
+      "n": 3395
+    },
+    {
+      "country": "Togo",
+      "pop_med_gdpdens": 747212.0,
+      "ins_med_gdpdens": 211054.0,
+      "ins_gdp_pctile": 24.1,
+      "n": 44
+    }
+  ],
+  "pooled_gdp_pctile": 0.3265,
+  "share_below_median_resident": 71.4,
+  "wilcoxon_p": 0.0,
+  "by_conflict": {
+    "JNIM": 34.6,
+    "BokoHaram": 18.7,
+    "alShabaab": 43.3
+  }
+}

@@ -67,6 +67,13 @@ population-weighted null), insurgent events fall at the **71st percentile** of t
 population's own distance-to-hub distribution — they strike farther from the cores than
 the people do. This holds across all three insurgencies.
 
+Refined with **continuous economic output** (gridded GDP, Kummu et al. 2024) in place of the
+binary urban-centre flag: in the same population-weighted null, insurgent events sit at the
+**33rd percentile of GDP density** — i.e. 71% of them are at lower economic output than the
+median local resident lives at (p ≈ 0, all ten countries, all three conflicts). Two
+independent measures of "economic core" — settlement form and dollars of output — agree that
+insurgents avoid it beyond what avoiding population alone would explain.
+
 | Script | Purpose | Output |
 |---|---|---|
 | `multiconflict_density_leakage.py` | Pools JNIM / Boko Haram-ISWAP / al-Shabaab receiving states; leakage vs GDP/km². | `multiconflict_density_leakage.json` |
@@ -76,6 +83,7 @@ the people do. This holds across all three insurgencies.
 | `subnational_econ_grid.py` | 50 km grid; built-up (economic) density vs violence, controlling for population. | `subnational_econ_grid.json` |
 | `subnational_hub_distance.py` | Event-level distance to nearest urban centre, insurgent vs baseline violence. | `subnational_hub_distance.json` |
 | `subnational_hub_popnull.py` | Within-country, population-weighted null for the hub-avoidance test. | `subnational_hub_popnull.json` |
+| `subnational_econ_popnull.py` | Refinement: the population-weighted null on continuous GDP density (gridded GDP) instead of the binary urban-centre flag. | `subnational_econ_popnull.json` |
 
 ## Repository layout
 
@@ -105,6 +113,7 @@ shown, relative to the repository root:
 | GHS-POP 2020, 1 km (population) | `data/ghs/GHS_POP_1km/GHS_POP_E2020_GLOBE_R2023A_54009_1000_V1_0.tif` | https://ghsl.jrc.ec.europa.eu/download.php |
 | GHS-SMOD 2020, 1 km (settlement model / urban centres) | `data/ghs/GHS_SMOD_1km/GHS_SMOD_E2020_GLOBE_R2023A_54009_1000_V1_0.tif` | https://ghsl.jrc.ec.europa.eu/download.php |
 | GHS-BUILT-S 2020, 1 km (built-up surface) | `data/ghs/GHS_BUILT_S_1km/GHS_BUILT_S_E2020_GLOBE_R2023A_54009_1000_V1_0.tif` | https://ghsl.jrc.ec.europa.eu/download.php |
+| Kummu et al. gridded GDP (total, 5 arcmin, 1990–2024) | `data/kummu_gdp/gdpTot_1990_2024_5arcmin.tif` | https://doi.org/10.5281/zenodo.18429133 |
 
 `paper3_border_capacity.py` and `paper3_spending_density.py` also read the World
 Bank indicator API directly over HTTP (GDP, military expenditure, population), so
